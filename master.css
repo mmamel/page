@@ -16,11 +16,32 @@ body{
   height:100vh;
   font-family: 'Oxygen', sans-serif;
   font-weight: 400;
-  background: url(images/fire.jpg);
+  /* background: url(images/fire.jpg); */
   background-position: center;
   background-size: cover;
+  padding-bottom: 0rem;
+  position:relative;
 }
-
+.header {
+  display: block;
+  padding-top: 50px;
+  padding-right: 40px;
+  position: relative;
+}
+footer {
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 7.5rem;
+}
+#content div{
+  text-align: center;
+  font-weight: 100;
+  font-size: 150px;
+  padding-top: 300px;
+}
 nav{
   padding: 8px;
 }
@@ -34,8 +55,8 @@ nav{
   color: #000;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 0px;
+  font-size: 20px;
+  letter-spacing: 1px;
   text-decoration: none;
 }
 
@@ -61,7 +82,7 @@ nav ul li a{
   color: #000;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 1.2px;
   font-weight: 600;
 }
