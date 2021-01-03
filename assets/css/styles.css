@@ -94,19 +94,20 @@
 }
 
 .blog-post__title{
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   margin: 1.5rem 0 2rem;
   text-transform: uppercase;
   color: var(--second-color);
 }
 .blog-post__text{
   margin-bottom: 3rem;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: rgba(0,0,0,.7);
 }
 .blog-post__cta{
   display: inline-block;
-  padding: 1.5rem 3rem;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -525,6 +526,12 @@ img{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
+  }
+  .gallery__container{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
   }
   .contact__form{
     width: 360px;
